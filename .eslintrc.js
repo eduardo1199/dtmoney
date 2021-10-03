@@ -31,6 +31,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     ],
+    'linebreak-style': 'off',
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
     'no-use-before-define': 'off',
