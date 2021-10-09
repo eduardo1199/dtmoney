@@ -38,6 +38,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'global-require': 'off',
     'import/prefer-default-export': 'off',
+    'react/jsx-no-bind': 'off',
     'no-unused-expressions': ['error', { allowTaggedTemplates: true }],
   },
 };
