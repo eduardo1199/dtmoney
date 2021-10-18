@@ -6,7 +6,7 @@ import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
 import { NewTransaction } from './components/NewTransaction/NewTransaction';
 
-import { TransactionProvider } from './contexts/TransactionsContext';
+import { TransactionProvider } from './hooks/useTransction';
 
 export function App() {
   const [isNewTransactionModaOpen, setIsNewTransactionModaOpen] = useState(false);
